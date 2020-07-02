@@ -1,0 +1,45 @@
+.grid {
+	height: 440px;
+	width: 428px;
+	display: flex;
+	flex-wrap: wrap;
+    background-color: grey;
+	
+}
+
+.grid div {
+	height: 40px;
+	width: 40px;
+	border:1px solid black;
+	cursor:pointer;
+	
+	
+}
+
+.checked{
+	background-color: rgb(86, 72, 98);
+	
+}
+
+.bomb{
+	background-color: grey;
+
+	
+}
+
+.bomb:active{
+	
+	background-image:url('boom.png');
+	background-repeat: no-repeat;
+	background-position:center;
+
+}
+
+
+.flag{
+	background-image:url('flag.png');
+	
+	
+}
+
+
